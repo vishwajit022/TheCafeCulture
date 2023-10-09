@@ -17,17 +17,14 @@ function App() {
     setMenuItems(newItems);
   };
 
- 
-
   return (
     <main>
       <section className="menu section">
         <div className="title">
           <hr/>
-          <h2 className="main">The Cafe Culture</h2>
-          <hr/>
-          
-        </div>
+          <h2 id="main">The Cafe Culture</h2>
+                <hr/>
+          </div>
         <Categories categories={categories} filterItems={filterItems} />
         <Menu items={menuItems} />
       </section>
