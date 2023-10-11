@@ -1,0 +1,179 @@
+/* Reset some default styles and set a background color */
+
+body,
+h1,
+h2,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+* {
+    font-family: 'Borel', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Sacramento', cursive;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-family: 'Young Serif', serif;
+}
+
+.tagline {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Sacramento', cursive;
+    font-size: 30px;
+    letter-spacing: 2px;
+    width: auto;
+    background-color: black;
+}
+
+
+/* Style the header */
+
+header {
+    background-image: url(./images/background.jpeg);
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.header_container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    width: 100vh;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.ketchup>img {
+    width: 250px;
+    height: auto;
+    transform: rotate(180deg);
+}
+
+
+/* Style the hero section */
+
+#hero {
+    background-image: url('./images/pizzabackground1.jpeg');
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    /* Set the height to 100vh */
+    color: #0a0808;
+    padding-top: 50vh;
+}
+
+#hero h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-top: -10vh;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+.box {
+    width: 400px;
+    height: 300px;
+    background-image: url('./images/titleBurger.jpeg');
+    background-size: cover;
+    margin: 50px;
+}
+
+.box_container {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero {
+    background-image: url(./images/premium_photo-1663932464735-e0946d833749.jpg);
+}
+
+.bg {
+    background-image: url(./images/background.jpeg);
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    height: 100vh;
+    background-size: 100% auto;
+    /* Stretch the image horizontally */
+}
+
+h2 {
+    color: white;
+}
+
+.whole {
+    background-image: url("./images/cafe.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+}
+
+.page {
+    padding-bottom: 30px;
+}
+
+.thodaUpar {
+    margin-top: -10vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Style the footer */
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
