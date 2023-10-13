@@ -3,7 +3,7 @@ var tl = gsap.timeline();
 // Animations for the ".box" element
 tl.from(".box", {
     duration: 0.5,
-    scale: 0,
+    scale: 4,
     opacity: 0
 });
 
@@ -33,6 +33,15 @@ gsap.from("h2, .button", {
         scroller: "body",
         markers: true, // Enable markers for debugging
         scrub: 5 //Use to trigger and untrigger reverse action
+    }
+});
+gsap.from(".bg", {
+    y: -200,
+    duration: 0.3,
+    scrollTrigger: {
+        trigger: ".bg h2 p a",
+        scroller: "body",
+
     }
 });
 
